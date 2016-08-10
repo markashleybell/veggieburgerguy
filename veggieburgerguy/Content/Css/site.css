@@ -1,14 +1,15 @@
 ﻿body {
     background: url(../Img/burger.jpg) no-repeat center top fixed;
     background-size: cover;
-}
-
-img {
-    max-width: 100%;
+    font-size: 2.5em;
 }
 
 h1, h2, h3 {
     font-weight: 900;
+}
+
+hr {
+    border-color: #fd972f;
 }
 
 .header {
@@ -61,7 +62,7 @@ This will show the 'Hungry?' rollover
 */
 
 .section .columns {
-    padding-top: 2.5rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
     background-color: #FFECDB;
     background-color: rgba(255, 236, 219, 0.8);
     text-align: center;

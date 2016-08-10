@@ -13,17 +13,18 @@
         <table class="header">
             <tr>
                 <td class="logo">
-                    <img src="~/Content/Img/logo.png" />
+                    <img class="u-max-full-width" src="~/Content/Img/logo.png" />
                 </td>
                 <td class="main-nav">
                     <ul>
-                        <li><a href="#menu">Menu</a></li><li><a href="#location">Location</a></li><li><a href="#aboutnews">About/News</a></li><li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#menu">Menu</a></li><li><a href="#location">Location</a></li><li><a href="#about">About</a></li><li><a href="#news">News</a></li><li><a href="#gallery">Gallery</a></li>
                     </ul>
                 </td>
             </tr>
         </table>
         @RenderBody()
     </div>
+    @Scripts.Render("~/Scripts/main")
     @RenderSection("scripts", required: false)
 </body>
 </html>
