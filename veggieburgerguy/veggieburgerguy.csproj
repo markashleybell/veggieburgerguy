@@ -129,6 +129,7 @@
     <Content Include="Content\Css\normalize.css" />
     <Content Include="Content\Css\site.css" />
     <Content Include="Content\Css\skeleton.css" />
+    <Content Include="Content\Img\burger.jpg" />
     <Content Include="Content\Img\favicon.ico" />
     <Content Include="Content\Img\logo.png" />
     <Content Include="Global.asax" />
