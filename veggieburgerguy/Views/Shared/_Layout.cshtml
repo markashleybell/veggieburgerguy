@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veggie Burger Guy</title>
     <link rel="icon" type="image/png" href="~/Content/Img/favicon.ico">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" type="text/css">
     @Styles.Render("~/Content/css")
 </head>
 <body>
     <div class="container">
+        <table class="header">
+            <tr>
+                <td class="logo">
+                    <img src="~/Content/Img/logo.png" />
+                </td>
+                <td class="main-nav">
+                    <ul>
+                        <li><a href="#menu">Menu</a></li><li><a href="#location">Location</a></li><li><a href="#aboutnews">About/News</a></li><li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
         @RenderBody()
     </div>
     @RenderSection("scripts", required: false)

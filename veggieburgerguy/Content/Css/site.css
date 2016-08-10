@@ -1,17 +1,74 @@
-﻿.example-grid .column, .example-grid .columns {
-    background: #EEE;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    height: 30px;
-    line-height: 30px;
-    margin-bottom: .75rem;
-    font-weight: 600;
-    letter-spacing: .1rem;
-}
-
-body {
+﻿body {
     background: url(../Img/burger.jpg) no-repeat center top fixed;
     background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header td {
+    border: none;
+}
+
+.logo {
+    width: 15%;
+}
+
+.main-nav {
+    text-align: right;
+}
+
+.main-nav ul {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.main-nav a {
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.spacer {
+    height: 500px;
+    height: 80vh;
+}
+
+/*
+This will show the 'Hungry?' rollover
+.spacer:hover {
+    background: url(../Img/logo.png) no-repeat center center;
+}
+*/
+
+.section .columns {
+    padding-top: 2.5rem;
+    background-color: #FFECDB;
+    background-color: rgba(255, 236, 219, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+iframe {
+    margin-bottom: 2.5rem;
 }
