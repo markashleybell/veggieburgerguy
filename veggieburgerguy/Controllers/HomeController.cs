@@ -34,7 +34,7 @@ namespace veggieburgerguy.Controllers
             foreach(var d in response.Data.data)
                 images.Add(new InstagramImage { Link = d.link, Url = d.images.low_resolution.url });
 
-            return Json(images, JsonRequestBehavior.AllowGet);
+            return Json(images.Take(12), JsonRequestBehavior.AllowGet);
         }
 
         public ActionResult OAuth()

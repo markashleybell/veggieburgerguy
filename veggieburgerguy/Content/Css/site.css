@@ -62,7 +62,7 @@ This will show the 'Hungry?' rollover
 */
 
 .section .columns {
-    padding: 2.5rem 2.5rem 0 2.5rem;
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     background-color: #FFECDB;
     background-color: rgba(255, 236, 219, 0.8);
     text-align: center;
@@ -70,6 +70,27 @@ This will show the 'Hungry?' rollover
     margin-bottom: 5rem;
 }
 
-iframe {
-    margin-bottom: 2.5rem;
+.section .columns.thumbnail {
+    padding: 10px;
+}
+
+.section .columns.thumbnail img {
+    display: block;
+}
+
+.section .columns.thumbnail > div {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.section .columns.thumbnail > div > a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
