@@ -10,18 +10,28 @@
 </head>
 <body>
     <div class="container">
-        <table class="header">
+        <table class="desktop-header">
             <tr>
                 <td class="logo">
                     <img class="u-max-full-width" src="~/Content/Img/logo.png" />
                 </td>
-                <td class="main-nav">
+                <td class="nav">
                     <ul>
                         <li><a href="#menu">Menu</a></li><li><a href="#location">Locations</a></li><li><a href="#about">About</a></li><li><a href="#news">News</a></li><li><a href="#gallery">Gallery</a></li>
                     </ul>
                 </td>
             </tr>
         </table>
+        <div class="row mobile-header" id="images">
+            <div class="twelve columns">
+                <img class="u-max-full-width" src="~/Content/Img/logo.png" />
+            </div>
+            <div class="twelve columns nav">
+                <ul>
+                    <li><a href="#menu">Menu</a></li><li><a href="#location">Locations</a></li><li><a href="#about">About</a></li><li><a href="#news">News</a></li><li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
         @RenderBody()
     </div>
     @Scripts.Render("~/Scripts/main")
