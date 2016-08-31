@@ -2,7 +2,7 @@
     /*background: url(../Img/burger.jpg) no-repeat center top fixed;
     background-size: cover;*/
     background-color: #f9edd9;
-    font-size: 2.5em;
+    font-size: 1.8em;
 }
 
 h1, h2, h3 {
@@ -136,6 +136,9 @@ This will show the 'Hungry?' rollover
 }
 
 @media (min-width: 600px) {
+    body {
+        font-size: 2.5em;
+    }
     .desktop-header {
         display: table;
     }
