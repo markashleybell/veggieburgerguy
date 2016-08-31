@@ -136,6 +136,7 @@
     <Content Include="Content\Css\skeleton.css" />
     <Content Include="Content\Img\burger.jpg" />
     <Content Include="Content\Img\favicon.ico" />
+    <Content Include="Content\Img\group-shot.jpg" />
     <Content Include="Content\Img\logo.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\main.js" />

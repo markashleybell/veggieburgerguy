@@ -1,6 +1,7 @@
 ﻿body {
-    background: url(../Img/burger.jpg) no-repeat center top fixed;
-    background-size: cover;
+    /*background: url(../Img/burger.jpg) no-repeat center top fixed;
+    background-size: cover;*/
+    background-color: #f9edd9;
     font-size: 2.5em;
 }
 
@@ -63,11 +64,21 @@ This will show the 'Hungry?' rollover
 
 .section .columns {
     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
-    background-color: #FFECDB;
-    background-color: rgba(255, 236, 219, 0.8);
+    background-color: #f7d8a5;
+    /*background-color: rgba(255, 236, 219, 0.8);*/
     text-align: center;
     border-radius: 5px;
     margin-bottom: 5rem;
+}
+
+.section .columns.zeropadding {
+    padding: 0;
+    overflow: hidden;
+}
+
+.section .columns.zeropadding img {
+    max-width: 100%;
+    display: block;
 }
 
 .section .columns.thumbnail {
